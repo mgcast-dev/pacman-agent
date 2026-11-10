@@ -79,6 +79,7 @@ class ReflexCaptureAgent(CaptureAgent):
                 dist = self.get_maze_distance(self.start, pos2)
                 if dist < best_dist:
                     best_action = action
+                    
                     best_dist = dist
             return best_action
 
